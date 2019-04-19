@@ -1,13 +1,18 @@
-# Content:
+## Introduction
+This is the source code of our CVPR 2018 paper "Deep Cross-media Knowledge Transfer", Please cite the following paper if you use our code.
+
+Xin Huang and Yuxin Peng, "Deep Cross-media Knowledge Transfer", 31th IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8837–8846, 2018. [[PDF]](http://59.108.48.34/tiki/download_paper.php?fileId=20188)
+
+## Content
 
 1) XMediaNet: Source model on XMediaNet dataset (for pre-training)
 2) Wiki: Target model on Wikipedia dataset (for pre-training), which also has model.prototxt, solver.prototxt, and test.prototxt
 3) DCKT: codes of training and testing for DCKT
-4) VGG19: Pre-train model of VGG19, please download http://59.108.48.34/tiki/tiki-download_file.php?fileId=10051
+4) VGG19: Pre-train model of VGG19, please download the [model](http://59.108.48.34/tiki/tiki-download_file.php?fileId=10051)
 5) Evaluate: Test codes for generating MAP scores
 
-
-Step #1: Setup transfer-caffe
+## Usage
+1. Setup transfer-caffe
  Setup transfer-caffe from the following URL:https://github.com/zhuhan1236/transfer-caffe
 
 Step #2: Pre-training for Source and Target model
