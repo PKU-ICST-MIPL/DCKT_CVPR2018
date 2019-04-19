@@ -1,8 +1,4 @@
-# DCKT_CVPR2018
-Source code of our CVPR 2018 paper "Deep Cross-media Knowledge Transfer".
-
-Content:
-
+# Content:
 
 1) XMediaNet: Source model on XMediaNet dataset (for pre-training)
 2) Wiki: Target model on Wikipedia dataset (for pre-training), which also has model.prototxt, solver.prototxt, and test.prototxt
