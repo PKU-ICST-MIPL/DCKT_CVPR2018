@@ -45,6 +45,6 @@ Setup transfer-caffe from the following URL: https://github.com/zhuhan1236/trans
 	* CuIter=$4 the current Iter number, for convenience of resuming from break point.
  Note: The most common problem may come from the path settings. I suggest first dealing with TargetModel and SourceModel respectively, and then only one 1 Iter of progressive transfer.
 
-3. Evaluation
+4. Evaluation
 * If runall.sh is succesfully run, the common representations can be found in folder "ProtoX"
 *  Compute MAP scores with extracted representations with Evaluate/evaluate_wiki.m. Note: We set an exapmle Label.mat file in this folder. You must create yourselves to match the labels of your test data.
