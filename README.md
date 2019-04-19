@@ -24,7 +24,7 @@ Setup transfer-caffe from the following URL: https://github.com/zhuhan1236/trans
 	* Training source model as SourceModel.caffemodel. Use solver.prototxt and model.prototxt, with pre-train model vgg19_cvgj_iter_300000_TripleNet.caffemodel. 
 	     Remember to set your paths.
 * Training of Target model in folder "Wiki", as TargetModel.caffemodel. Similar to the Source model. <br/>
-	XMediaNet dataset can be download via http://www.icst.pku.edu.cn/mipl/XmediaNet <br/>
+	XMediaNet dataset can be download via: http://www.icst.pku.edu.cn/mipl/XmediaNet <br/>
 	Wikipeia dataset can be download via: http://www.svcl.ucsd.edu/projects/crossmodal/ <br/>
 
 3. Progressive Transfer
