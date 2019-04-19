@@ -12,10 +12,10 @@ Xin Huang and Yuxin Peng, "Deep Cross-media Knowledge Transfer", 31th IEEE Confe
 5) Evaluate: Test codes for generating MAP scores
 
 ## Usage
-1. Setup transfer-caffe
- Setup transfer-caffe from the following URL:https://github.com/zhuhan1236/transfer-caffe
+1. Setup transfer-caffe <br/>
+Setup transfer-caffe from the following URL:https://github.com/zhuhan1236/transfer-caffe
 
-Step #2: Pre-training for Source and Target model
+2. Pre-training for Source and Target model <br/>
  1) Training of Source model in folder "XMediaNet", as SourceModel.caffemodel. According to model.prototxt, you need:
 	1-1) Extracting the pool5 feature maps of XMediaNet dataset, as .LMDB format, using vgg19_cvgj_iter_300000.caffemodel and test.prototxt in folder "VGG19". 
 	     You need images' folder, and list in .txt format (including label). Remember to set your paths in test.prototxt.  
